@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/index",
+    "pages/detail/index",
+    "pages/search/index",
+    "pages/detail_img/index",
+    "pages/collection/index",
+    "pages/history/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#23abf2",
+    "navigationBarTitleText": "我的漫画程序",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#383838",
+    "selectedColor": "#23abf2",
+    "backgroundColor": "#eeeeee",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "搜索",
+      "iconPath": "icons/search1.png",
+      "selectedIconPath": "icons/search.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "icons/my1.png",
+      "selectedIconPath": "icons/my.png"
+    }
+
+
+    ]
+  }
+}

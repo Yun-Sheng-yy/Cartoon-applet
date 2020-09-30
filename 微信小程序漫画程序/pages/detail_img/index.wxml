@@ -1,0 +1,5 @@
+
+<image mode="widthFix"
+wx:for="{{manhua_img_dict_list.data.data}}"
+wx:key="*this"
+src="{{item.img}}"></image>

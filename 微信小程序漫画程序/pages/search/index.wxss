@@ -1,0 +1,50 @@
+page{
+  padding: 30rpx;
+}
+.search_row{
+  height: 60rpx;
+  display: flex;
+  padding-bottom: 50rpx;
+}
+.search_row input{
+  background-color: #f8f8f8;
+  flex: 1;
+  height: 100%;
+
+  /* 修改padding让文字在内边显示 */
+  padding-left: 30rpx;
+  
+}
+.search_row button{
+  flex: 0.3;
+  width: 110rpx;
+  height: 100%;
+  font-size: 28rpx;
+  padding: 0;
+  margin: 0 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26rpx;
+  border-left: 1rpx solid #ccc;
+}
+
+.manhua_item{
+  display: flex;
+  padding:30rpx 30rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.img_url{
+  flex: 2;
+  width: 70%;
+  
+}
+.search_content text{
+  flex: 7;
+  text-align: right;
+  padding: 30rpx;
+  color: #383838;
+  
+}
+

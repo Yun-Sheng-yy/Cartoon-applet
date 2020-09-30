@@ -1,0 +1,58 @@
+/* pages/detail/index.wxss */
+page{
+
+  /* padding: 30rpx; */
+}
+
+.title_main{
+  padding-top: 40rpx;
+  display: flex;
+  background-color: #23abf2;
+}
+
+.img_url{
+  flex: 3;
+  width: 40%;
+  margin: 30rpx;
+}
+.manhua_title{
+  flex: 7;
+  text-align: center;
+  padding: 30rpx;
+  color: #ffffff;
+}
+
+/* 下面是具体话数的样式 */
+.title_item{
+  margin-top: 100rpx;
+  display: flex;
+   /* 下面的会产生换行效果 */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.url_item{
+  border: 1rpx solid #23abf2;
+  /* border-radius: 30%; */
+  margin: 30rpx;
+  color: #333333;
+  font-size: 24rpx;
+}
+.url_item navigator{
+  margin:15rpx;
+}
+
+.shuochang{
+
+  color:#23abf2;
+  position:fixed;
+  right:20px;
+  bottom:50px;
+
+  text-align:center;
+}
+
+.isActive{
+  /* background-color:#fff; */
+  /* color:#23abf2; */
+}

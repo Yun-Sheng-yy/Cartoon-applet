@@ -1,0 +1,22 @@
+<view class="manhua_history_content">
+  
+  <view class="manhua_item"
+  wx:for="{{manhua_data}}"
+  wx:key="*this"
+  >
+    <navigator class="link_item"
+    url="/pages/detail/index?url={{item.manhua_url}}"
+    bindtap="handleClick"
+    data-img="{{item.manhua_img}}"
+    data-name="{{ item.manhua_name }}"
+    >
+      <image mode="widthFix" src="{{ item.manhua_img }}"></image>
+      <view class="manhua_info">
+        <view class="zhiti">{{ item.manhua_name	 }}</view>
+        <view class="datatime">{{ item.datatime }}</view>
+      </view>
+    </navigator>
+    <view class="sanchu iconfont icon-shanchu" bindtap="quxiaoclick" data-index="{{index}}"></view>
+  </view>
+</view>
+

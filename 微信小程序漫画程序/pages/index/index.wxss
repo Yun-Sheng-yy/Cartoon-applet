@@ -1,0 +1,11 @@
+page{
+  background-color: #eeeeee;
+  padding-top: 100rpx;
+
+}
+.searchinput{
+  /* padding: 80rpx; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+/* 老师的是使用less，但是我没学过，评论的老哥提供了一个 */
+.search_input {
+  height: 90rpx;
+  padding: 10rpx;
+  background-color: var(--themeColor);
+  
+  }
+  .search_input navigator {
+  height: 100%;
+  /* 弹性布局有子元素自动成为容器成员 */
+  display: flex;
+  width: 70vw;
+  /* 水平垂直居中 */
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1rpx solid #23abf2;
+  
+  /* 下面的是圆角 */
+  border-radius: 30rpx;
+  color: #666;
+  }

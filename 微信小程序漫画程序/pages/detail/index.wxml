@@ -1,0 +1,16 @@
+<view class="title_main">
+  <image mode="widthFix" src="{{manhua_data.img}}" class="img_url"></image>
+  <view class="manhua_title">{{ manhua_data.name }}</view>
+</view>
+<view class="title_content">
+  <view class="title_item" bindtap="save_history">
+
+    <view class="url_item"
+    wx:for="{{ manhua_dict_list.data.data }}"
+    wx:key="*this"
+    >
+      <navigator url="/pages/detail_img/index?url={{ item.detail_url }}">{{ item.info }}</navigator>
+    </view>
+  </view>
+  <view hidden="{{!isFocus}}" class="iconfont shuochang {{isCollect?'icon-quxiaoshoucang':'icon-quxiaoshoucang1'}}" bindtap="ShuochangClick"></view>
+</view>

@@ -1,0 +1,80 @@
+/* pages/user/index.wxss */
+page{
+  background-color: #edece8;
+}
+
+.user_info_wrap{
+  height: 45vh;
+  overflow: hidden;
+  background-color: #23abf2;
+  position: relative;
+  
+}
+.user_btn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  border: 1rpx solid #edece8;
+  color: #edece8;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 45%;
+  /* 相对定位 */
+  /* position: relative; */
+}
+
+.user_btn button{
+  /* 绝对定位 */
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.user_img_warp{
+  /* 相对定位，下面头像定位用 */
+  position: relative;
+}
+.user_bg{
+
+  height: 50vh;
+  /* 高斯模糊 */
+  filter: blur(15rpx);
+}
+
+.user_info{
+   /* 绝对定位 */
+   position: absolute;
+   left: 50%;
+   /* transform:translate(-50%,-50%)实现水平垂直居中 下面的是实现水平居中 */
+   transform: translateX(-50%);
+   top: 30%;
+   text-align: center;
+}
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_name{
+  color: #fff;
+}
+
+/* 下面是，历史和收藏的样式 */
+.my_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my_content navigator{
+  padding-top: 100rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

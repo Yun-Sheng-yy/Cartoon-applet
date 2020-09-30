@@ -1,0 +1,19 @@
+<view class="search_row">
+  <input value="{{ inpValue }}" placeholder="请输入你要搜索的漫画" bindinput="handleInput"></input>
+  <button bindtap="handleCancel" >搜索</button>
+</view>
+<view class="search_content">
+  <navigator class="manhua_item"
+  wx:for="{{dict_list.data.data}}"
+  wx:key="*this"
+  url="/pages/detail/index?url={{item.manhua_url}}"
+  data-img="{{item.img}}"
+  data-name="{{ item.name }}"
+  bindtap="handleClick"
+  >
+  <image mode="widthFix" src="{{ item.img }}" class="img_url"></image>
+  <text>{{ item.name }}</text>
+  </navigator>
+
+</view>
+
